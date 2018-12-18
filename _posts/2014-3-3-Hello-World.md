@@ -1,9 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: First blog post. What to Expect.
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+In this blog you can expect detailed tutorials, tips, and tricks that I find useful revolving around programming, html, css, productivity applications, and much more!
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
