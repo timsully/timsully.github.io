@@ -19,3 +19,5 @@ title: Figma Notes for Team Library
 - Permissions: By structuring teams around efforts, you can have tighter, more specific control of user permissions. For example, if a group of 10 people are working on a new effort, by creating a team just for them, you can isolate edit access to just those users.
 
 ![Figma File Management](https://github.com/timsully/timsully.github.io/blob/master/images/figma_file_management.png "Figma File Management")
+
+- 
