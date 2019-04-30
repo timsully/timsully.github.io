@@ -20,4 +20,33 @@ title: Figma Notes for Team Library
 
 ![Figma File Management](https://github.com/timsully/timsully.github.io/blob/master/images/figma_file_management.png "Figma File Management")
 
-- 
+## Design Systems
+- Consider setting up a dedicated team to share the libraries from, allowing more efficient control edit access. Which will allow you to publish stuff to your library.
+
+- Make the design systems team open so everyone in the organization can see/use the libraries which are available to them, but not necessarily have the ability to edit
+
+- Once you have started building your shared libraries and have situated them in a team with the appropriate level of access, you can start thinking about enabling certain libraries by default for the entire company, or specific libraries for specific teams.s
+
+- When libraries are turned on at the organization level, every document created, regardless of team, will automatically have those libraries enabled
+
+### Design Systems work in progress team
+- If you have a team dedicated to creating, maintaining and distributing the company's design system, it is recommended giving them their own specific Figma team for their work in progress separate from the team where they house the published libraries they are in charge of maintaining and distributing
+
+-  The work in progress library would most likely be closed to avoid confusion with ready-to-use components. This will avoid confusion about where the source of truth is for the design system. The design systems team can be free to do explorations, review component/pattern proposals and perform audits on existing patterns without any impact to users.
+
+## Teams for Agencies and Consultancies
+- If you're working with clients it may make sense to set them up as closed teams to keep sensitive work confined to those users
+
+
+## Important Questions to Ask
+- How tightly do you need to control access to various work happening across the company?
+
+- How collaborative and cross-functional do you want your organization to be?
+
+- Who needs to have visibility into each team and the documents within it?
+
+- How could projects within a team help you organize your documents more effectively
+
+- Do libraries or fonts need to be shared across the entire company?
+
+- Will specific teams require certain shared libraries but not others?
