@@ -50,3 +50,18 @@ title: Figma Notes for Team Library
 - Do libraries or fonts need to be shared across the entire company?
 
 - Will specific teams require certain shared libraries but not others?
+
+# Assets Panel
+- The assets panel brings together Components from the current File, and any Files or Libraries you have access to. (is it in this order?)
+
+- The search field looks for Components in the current File, as well as any Libraries you have access to.
+
+Components Hierarchy in the Assets Panel are in the following order:
+
+  - Components you have created in the current File.
+
+  - Components that are Private to the File. This includes any Components in this File that aren't published to a Team Library.
+
+  - Components from other Files that you have used in the current File.
+
+  - Components from any enabled Team Libraries.
