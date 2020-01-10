@@ -14,12 +14,12 @@
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("/fonts/proxima-regular-webfont.woff") format("woff");
+  src: url("../fonts/proxima-regular-webfont.woff") format("woff");
 }
 
 @font-face {
   font-family: "Splunk Data Sans";
-  src: url("/fonts/SplunkDataSans_W_Rg.woff2") format("woff2"), url("/fonts/SplunkDataSans_W_Rg.woff") format("woff");
+  src: url("../fonts/SplunkDataSans_W_Rg.woff2") format("woff2"), url("../fonts/SplunkDataSans_W_Rg.woff") format("woff");
   font-display: auto;
   font-style: normal;
   font-weight: 700;
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: "Splunk Data Sans Mono";
-  src: url("/fonts/SplunkDataSansMono_W_Rg.woff") format("woff"), url("/fonts/SplunkDataSansMono_W_Rg.woff2") format("woff2");
+  src: url("../fonts/SplunkDataSansMono_W_Rg.woff") format("woff"), url("../fonts/SplunkDataSansMono_W_Rg.woff2") format("woff2");
   font-display: auto;
   font-style: normal;
   font-weight: 700;
@@ -35,7 +35,7 @@
 
 @font-face {
   font-family: "Inconsolata";
-  src: url("/fonts/inconsolata-regular.woff") format("woff");
+  src: url("../fonts/inconsolata-regular.woff") format("woff");
   font-display: auto;
   font-style: normal;
   font-weight: 700;
