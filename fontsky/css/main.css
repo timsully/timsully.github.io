@@ -10,6 +10,53 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url("https://p.typekit.net/p.css?s=1&k=pmx1lyc&ht=tk&f=139.140.175.176&a=18243288&app=typekit&e=css");
+
+
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/949f99/00000000000000003b9b3068/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "proxima-nova";
+  src: url("https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/705e94/00000000000000003b9b3062/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Splunk Data Sans";
+  src: url("/fonts/SplunkDataSans_W_Rg.woff2") format("woff2"), url("/fonts/SplunkDataSans_W_Rg.woff") format("woff");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Splunk Data Sans Mono";
+  src: url("/fonts/SplunkDataSansMono_W_Rg.woff") format("woff"), url("/fonts/SplunkDataSansMono_W_Rg.woff2") format("woff2");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url("/fonts/inconsolata-regular.woff") format("woff");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.tk-proxima-nova {
+  font-family: "proxima-nova", sans-serif;
+}
+
 
 html {
   color: #222;
@@ -272,7 +319,11 @@ textarea {
 
 /* Custom CSS */
 .f-sds {
-  font-family: 'Splunk Data Sans';
+  font-family: "Splunk Data Sans";
+}
+
+.m-sds {
+  font-family: "Splunk Data Sans Mono";
 }
 
 h3 {
@@ -281,4 +332,8 @@ h3 {
 
 .p-top {
   padding-top: 32px;
+}
+
+.incon {
+  font-family: "Inconsolata";
 }
